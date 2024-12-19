@@ -1,0 +1,104 @@
+#btntop{
+    display: none;
+    position: fixed;
+    right: 50px;
+    z-index: +1;
+    bottom: 30px;
+    width: 3rem;
+    height: 3rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(89, 187, 78);
+    color: white;
+}
+
+#btntop:hover{
+
+    background-color: white;
+    color:  rgb(89, 187, 78);
+    transition: all 0.2s ease-in;
+}
+
+
+.navbar{
+    background-color: #2b3d4f;
+    padding: 2rem !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 1.75rem !important;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.maincontent{
+    /* height: 85vh; */
+    height: 40rem;
+    /* margin-top: -4rem; */
+    background-color: #1abd9c;
+}
+
+.avatar{
+    width: 15rem;
+}
+
+.content h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.content p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.headerportfolio h1{
+    font-size: 3rem;
+    font-weight: 600 !important;
+}
+
+.contentportfolio img{
+    border-radius: 10px;
+}
+
+.about{
+    background-color: #1abd9c;
+    color: white;
+}
+.about h1{
+    font-size: 3rem;
+}
+
+.about button{
+    padding: 0.75rem 2rem;
+    font-weight: 600 !important;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.lastcontent{
+    background-color: #2b3d4f;
+    color: white;
+}
+
+.lastcontent h2{
+    margin-bottom: 1rem;
+}
+
+.lastcontent p{
+    font-weight: 600;
+}
+
+.copyright{
+    background-color: #19242e;
+    color: white;
+    padding: 1.5rem;
+}
